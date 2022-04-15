@@ -23,7 +23,7 @@ using UnityEngine;
   //  }
 
 //}
-public class ej08 : MonoBehaviour
+public class ej08yejemplodeswitch : MonoBehaviour
    
 {
     public int dia;

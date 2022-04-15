@@ -2,13 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ej03 : MonoBehaviour
+public class Ej06 : MonoBehaviour
 {
-    public string nombre;
+    public int num1;
+        
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Hola " + nombre);
+
+       
+
+        if (num1 % 2 == 0)
+        {
+            Debug.Log("el numero es par");
+        }
+        else
+        {
+            Debug.Log("el numero es impar");
+        }
     }
 
     // Update is called once per frame
